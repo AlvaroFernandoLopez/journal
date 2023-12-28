@@ -37,7 +37,7 @@ const {notes}=useJournalStore();
       <Grid container spacing={2}>
           {
           notes.map(note => (
-            <Grid item xs={3} key={note.id}>
+            <Grid item xs={12} sm={6} md={3} key={note.id}>
                 <NotesJournal note={note}/>
             </Grid>
             
